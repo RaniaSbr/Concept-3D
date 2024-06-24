@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Nunito+Sans:ital,wght@1,600&family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+:root {
+  --mainColor: #0f3057;
+  --mainColorLight: #008891;
+  --secondaryColor: #f39189;
+  --textColor: #e7e7de;
+  --greyColor: #61677a;
+}
+
+.acceuil-right {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.acceuil-left {
+  padding-top: 10px;
+  display: block;
+  align-items: center;
+  width: 50vw;
+}
+.transf {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0f3057;
+  width: 35vw;
+  margin-bottom: 30px;
+}
+.resume {
+  font-size: 20px;
+  width: 50vw;
+}
+.btns {
+  display: flex;
+  gap: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .btn {
+    visibility: hidden;
+  }
+
+  .acceuil-right {
+    width: 20vw;
+  }
+  .btns {
+    display: flex;
+    width: 100vw;
+    row-gap: 20px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
