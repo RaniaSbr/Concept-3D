@@ -32,6 +32,8 @@ jobs:
       - name: Build
         working-directory: my-app
         run: npm run build
+        env:
+          CI: false
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
