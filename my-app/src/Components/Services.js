@@ -12,14 +12,14 @@ function Services(params) {
           <Service
             title="Prototypage"
             text="Nous offrons des services de conception et de fabrication de prototypes pour tester et valider vos concepts avant la production à grande échelle."
-            imageUrl="./Assets/engre_srvc.png"
+            imageUrl={process.env.PUBLIC_URL + "/Assets/engre_srvc.png"}
           />
           <Service
             title="Prothèse sur mesure"
             text=" Nous proposons des prothèses sur mesure conçues avec précision
               pour offrir un ajustement parfait et améliorer la qualité de vie
               de nos clients."
-            imageUrl="./Assets/prosthesis.png"
+            imageUrl={process.env.PUBLIC_URL + "/Assets/prosthesis.png"}
           />
         </div>
         <div className="md:flex grid gap-4">
@@ -30,14 +30,14 @@ function Services(params) {
               sur mesure pour répondre à vos exigences exactes, que ce soit pour
               des pièces de machines ou d'autres
               projets spéciaux."
-            imageUrl="./Assets/cube.png"
+            imageUrl={process.env.PUBLIC_URL + "/Assets/cube.png"}
           />
           <Service
             title="Maquette"
             text=" Pour visualiser vos idées et concepts, notre service de maquettage
               peut créer des représentations physiques ou numériques de haute
               qualité qui vous aideront à visualiser vos projets."
-            imageUrl="./Assets/cubes.png"
+            imageUrl={process.env.PUBLIC_URL + "/Assets/cubes.png"}
           />
         </div>
       </div>

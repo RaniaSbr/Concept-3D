@@ -10,7 +10,6 @@ function Navbar() {
 
   const sections = [
     { id: "", label: "Home" },
-    { id: "services", label: "Services" },
     { id: "Catalogue", label: "Materieux" },
     { id: "contact", label: "Contact" },
   ];
@@ -49,7 +48,11 @@ function Navbar() {
   return (
     <header className="h-30 flex items-center justify-between relative font-medium bg-white shadow-md">
       <a href="/" className="flex items-center">
-        <img className="logoC" src="./Assets/Logo.png" alt="Logo" />
+        <img
+          className="logoC"
+          src={process.env.PUBLIC_URL + "/Assets/Logo.png"}
+          alt="Logo"
+        />{" "}
         <div className="oncept3d mb-2">
           <p className="oncept">oncept</p>
           <a href="/">

@@ -32,7 +32,7 @@ const products = [
   {
     id: 2,
     name: "PRO1",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "Le filament PRO1 est une nouvelle génération de filament d'impression 3D conçu pour répondre aux besoins des utilisateurs professionnels. Fabriqué à partir de matériaux de haute qualité, le PRO1 offre une excellente stabilité dimensionnelle, une résistance supérieure et une qualité de surface exceptionnelle.",
     weight: "750 g , 2.5 kg",
@@ -41,7 +41,7 @@ const products = [
   {
     id: 3,
     name: "PLA N",
-    image: "../Assets/engre3.png",
+    image: "./Assets/engre3.png",
     description:
       "Le PLA N est une variante améliorée du PLA standard, spécialement conçue pour répondre à des besoins spécifiques dans le domaine de l'impression 3D.",
     weight: "1 kg , 4.5 kg , 7.5 kg",
@@ -58,7 +58,7 @@ const products = [
   {
     id: 4,
     name: "PETG",
-    image: "../Assets/engre3.png",
+    image: "./Assets/engre3.png",
     description:
       "Le PETG est le copolymère le plus connu et le plus utilisé dans le monde de l'impression 3D. Son apparition est due à la combinaison du PET et du glycol, ce qui améliore les propriétés intéressantes du PET avec un processus de glycol.",
     weight: "1 kg , 4.54 kg ",
@@ -68,7 +68,7 @@ const products = [
   {
     id: 5,
     name: "Nylon",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "Le nylon est un polymère synthétique appartenant à la famille des polyamides. Il est largement utilisé dans de nombreux domaines en raison de ses excellentes propriétés mécaniques, de sa résistance à l'usure, de sa durabilité et de sa polyvalence. ",
     weight: "1 kg , 4.54 kg ",
@@ -78,7 +78,7 @@ const products = [
   {
     id: 6,
     name: "ASA",
-    image: "../Assets/engre.png",
+    image: "./Assets/engre.png",
     description:
       "L'acrylonitrile styrène acrylate (ASA) est un terpolymère opaque thermoplastique2 qui fait partie de la vaste famille des polymères styréniques. L’ASA est un copolymère styrène-acrylonitrile (SAN) modifié avec des élastomères acryliques greffés.",
     weight: "1 kg , 4.5 kg , 7.5 kg",
@@ -88,7 +88,7 @@ const products = [
   {
     id: 7,
     name: "FLEXIFIL ,FLEX 45, FELX 60",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       " FLEXIFIL est un filament flexible conçu pour l'impression 3D. Il est fabriqué à partir de matériaux élastomères qui lui confèrent une certaine souplesse et une résistance à la déformation. Ce filament est idéal pour créer des pièces nécessitant une certaine flexibilité, telles que des joints, des soufflets, des protège-câbles et des pièces d'amortissement.",
     weight: "500 kg , 1 kg , 2.3 kg ",
@@ -98,7 +98,7 @@ const products = [
   {
     id: 8,
     name: " PVA +",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "Le PVA, ou alcool polyvinylique, est un matériau largement utilisé dans l’industrie de l’impression 3D en raison de sa capacité à se dissoudre dans l’eau. En particulier, il est utilisé pour la création de supports d’impression lors de l’utilisation de machines à double extrudeur FDM.",
     weight: "300 kg , 2.3 kg ",
@@ -120,7 +120,7 @@ const products = [
   {
     id: 9,
     name: "HIPS",
-    image: "../Assets/engre.png",
+    image: "./Assets/engre.png",
     description:
       "Le polystyrène dit Hips, pour High Impact PolyStyrene, est un polystyrène spécifique en raison de son opacité et surtout, de sa résistance aux chocs. On l'appelle d'ailleurs également le polystyrène-choc (SB). Le styrène est l'élément de base de la fabrication du polystyrène",
     weight: "750 kg , 4.5 kg , 8 kg ",
@@ -129,7 +129,7 @@ const products = [
   {
     id: 10,
     name: "Filaments chargés de liège / bois ",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       " FLEXIFIL est un filament flexible conçu pour l'impression 3D. Il est fabriqué à partir de matériaux élastomères qui lui confèrent une certaine souplesse et une résistance à la déformation. Ce filament est idéal pour créer des pièces nécessitant une certaine flexibilité, telles que des joints, des soufflets, des protège-câbles et des pièces d'amortissement.",
     weight: "500 kg , 2.3 kg ",
@@ -139,7 +139,7 @@ const products = [
   {
     id: 11,
     name: "PLA chargé cuivre/ bronze",
-    image: "../Assets/engre3.png",
+    image: "./Assets/engre3.png",
     description:
       " FLEXIFIL est un filament flexible conçu pour l'impression 3D. Il est fabriqué à partir de matériaux élastomères qui lui confèrent une certaine souplesse et une résistance à la déformation. Ce filament est idéal pour créer des pièces nécessitant une certaine flexibilité, telles que des joints, des soufflets, des protège-câbles et des pièces d'amortissement.",
     weight: "750 kg , 2.3 kg ",
@@ -149,7 +149,7 @@ const products = [
   {
     id: 12,
     name: "Filament chargé de carbonne",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       " FLEXIFIL est un filament flexible conçu pour l'impression 3D. Il est fabriqué à partir de matériaux élastomères qui lui confèrent une certaine souplesse et une résistance à la déformation. Ce filament est idéal pour créer des pièces nécessitant une certaine flexibilité, telles que des joints, des soufflets, des protège-câbles et des pièces d'amortissement.",
     weight: "500 kg , 2.3 kg ",
@@ -158,7 +158,7 @@ const products = [
   {
     id: 13,
     name: "Filament aramide kevlar",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "L'ABS renforcé de fibres d'aramide (Kevlar®) offre des performances améliorées pour les pièces imprimées, en évitant les risques d'obturation de la buse et en réduisant considérablement l'abrasion du matériau d'impression.",
     weight: "900 kg , 2kg ",
@@ -168,7 +168,7 @@ const products = [
   {
     id: 14,
     name: "Le filament fibre de verre 15%",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "Le filament renforcé de fibre de verre à 15% est conçu pour offrir une résistance et une rigidité accrues aux pièces imprimées en 3D. En incorporant 15% de fibre de verre dans le matériau, il renforce la structure de la pièce tout en conservant une certaine souplesse pour une variété d'applications.",
     weight: "900 kg , 2kg ",
@@ -178,7 +178,7 @@ const products = [
   {
     id: 15,
     name: "Le filament fibre de verre 30%",
-    image: "../Assets/engre2.png",
+    image: "./Assets/engre2.png",
     description:
       "Le filament renforcé de fibre de verre à 30% est spécialement formulé pour offrir une résistance exceptionnelle et une rigidité supérieure aux pièces imprimées en 3D. Avec une concentration plus élevée de 30% de fibre de verre, ce matériau garantit une plus grande robustesse et une meilleure performance mécanique, idéal pour les applications nécessitant une résistance accrue.",
     weight: "900 kg , 2kg ",

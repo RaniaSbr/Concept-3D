@@ -13,8 +13,7 @@ export default function Products() {
             className="bg-blanc/20 grid rounded-3xl md:h-[80vh]  w-auto  md:w-1/4 py-10 px-3 justify-items-center align-center hover:translate-y-4 transition-transform duration-300 ease-in-out "
             style={{ boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.05)" }}
           >
-            <img src="../Assets/engre.png" alt="" className="  h-40" />{" "}
-            <p className="md:text-[17px] lg:text-md  ">Filaments de base</p>
+<img src={process.env.PUBLIC_URL + "/Assets/engre.png"} alt="" className="h-40" />{" "}            <p className="md:text-[17px] lg:text-md  ">Filaments de base</p>
             <div className="grid m-4 gap-3">
               <div className="grid gap-4">
                 <div className="flex gap-1">
@@ -40,8 +39,7 @@ export default function Products() {
             className="bg-blanc/20 grid rounded-3xl md:h-[80vh]  w-auto  md:w-1/4 py-10 px-3 justify-items-center align-center hover:translate-y-4 transition-transform duration-300 ease-in-out "
             style={{ boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.05)" }}
           >
-            <img src="../Assets/engre2.png" alt="" className="h-40" />{" "}
-            <p className="text-center">Filaments spéciaux </p>
+<img src={process.env.PUBLIC_URL + "/Assets/engre2.png"} alt="" className="h-40" />{" "}            <p className="text-center">Filaments spéciaux </p>
             <div className="grid m-4 gap-3">
               <div className="grid ">
                 <div className="flex gap-1">
@@ -63,8 +61,7 @@ export default function Products() {
             className="bg-blanc/20 grid rounded-3xl md:h-[80vh]  w-auto  md:w-1/4 py-10 px-3 justify-items-center align-center hover:translate-y-4 transition-transform duration-300 ease-in-out "
             style={{ boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.05)" }}
           >
-            <img src="../Assets/engre3.png" alt="" className="h-40" />{" "}
-            <p className="md:text-[17px] text-center w-[90%] lg:text-md  ">
+<img src={process.env.PUBLIC_URL + "/Assets/engre3.png"} alt="" className="h-40" />{" "}            <p className="md:text-[17px] text-center w-[90%] lg:text-md  ">
               Filaments chargés et renforcés
             </p>
             <div className="grid-cols-2 grid w-4/5  gap-x-14 justify-items-start align-center ">

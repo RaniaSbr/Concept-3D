@@ -95,7 +95,7 @@ function Devis() {
   return (
     <div className="conteneur">
       <img
-        src="./Assets/Wave2.png"
+        src={process.env.PUBLIC_URL + "/Assets/Wave2.png"}
         alt=""
         className="fixed mt-[140px] top-0 z-0"
       />
@@ -187,7 +187,7 @@ function Devis() {
               <img
                 width={60}
                 height={60}
-                src="./Assets/papier.png"
+                src={process.env.PUBLIC_URL + "/Assets/papier.png"}
                 alt="Icône du fichier"
               />
               <p>{Fichier.name}</p>
