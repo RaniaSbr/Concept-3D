@@ -103,7 +103,7 @@ function Footer(params) {
           <NavLink>Mentions légales</NavLink>
         </div>
         <div className="droits">
-          <p>© 2009-2023 Sculpteo - Tous droits réservés.</p>
+          <p>© Concept 3D - Tous droits réservés.</p>
         </div>
       </div>
     </div>
