@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://raniasbr.github.io/Concept-3D",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
