@@ -39,7 +39,7 @@ function Footer(params) {
           <div className="num">
             <p className="titre-foot">Numéro de téléphone :</p>
             <a href="" onClick={handlePhoneClick}>
-              0556443262
+              +213 560 00 19 63
             </a>
           </div>
 

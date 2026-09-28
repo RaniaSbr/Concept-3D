@@ -6,9 +6,9 @@ import Materiaux from "./Materiaux.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function Acceuil(params) {
   return (
-    <div className="  py-16 px-10 grid gap-10 h-[100vh] justify-items-start content-center ">
-      <div className="grid justify-items-center content-center">
-        <div className=" flex  items-center  content-center">
+    <div className="  py-16 px-10 grid gap-10 h-[90vh] justify-items-start content-center ">
+      <div className="grid justify-items-start content-start">
+        <div className=" flex items-center  content-center">
           <div className="md:w-3/5 gap-10 grid">
             <p className="  md:text-4xl text-3xl">
               Transformez vos concepts en réalité!
